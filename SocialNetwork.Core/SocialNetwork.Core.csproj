@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Entities\" />
+    <None Remove="Interfaces\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entities\" />
+    <Folder Include="Interfaces\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Bson" Version="2.19.2" />
+  </ItemGroup>
+</Project>
