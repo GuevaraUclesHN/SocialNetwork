@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Mvc;
 using MongoDB.Driver;
 using SocialNetwork.Api.DataTransferObjects;
 using SocialNetwork.Core.Entities;
-using SocialNetwork.Core.Interfaces;
 
 namespace SocialNetwork.Api.Controllers
 {
