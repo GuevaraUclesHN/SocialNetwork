@@ -66,7 +66,7 @@ else
                     { "_id", new ObjectId("64893a0fd3035777883e02b0") },
                     { "Content", "Hola Buenas" },
                     { "UserId", "64893f8fd3035777883e02ba" },
-                   
+
                 }
             }
         }
@@ -82,7 +82,7 @@ else
             {
                 new BsonDocument
                 {
-                    
+
                 }
             }
         }
@@ -101,7 +101,6 @@ else
         { "_id", new ObjectId("64893a0fd3035777883e02b0") },
         { "Content", "Hola Buenas" },
         { "UserId", "64893f8fd3035777883e02ba" },
-        { "Username", "guevaraucleshn" }
     };
 
     postsCollection.InsertOne(postDocument);

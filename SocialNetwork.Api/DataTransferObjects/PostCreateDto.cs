@@ -4,6 +4,7 @@ namespace SocialNetwork.Api.DataTransferObjects
 	public class PostCreateDto
 	{
         public string Content { get; set; }
+        public string UserId { get; set; }
     }
 }
 
