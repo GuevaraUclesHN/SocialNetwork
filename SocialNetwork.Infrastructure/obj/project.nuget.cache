@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "LZYNqvx2eQEVVLDnbFQa3Evcoor5C32UMcJyfAkVTVE+f98vMeNmuwyxb4os04kbtSiq1hODsQ2zFtKz0w+pHw==",
+  "dgSpecHash": "R0UsCLAdYylw82cWET6P/6CoYwU+SVF2VPlESVYR0ZsXAdtkl0e0h00+1lGHkACay+2DyVVIdttuxi1m5ETQiw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jose\\Source\\Repos\\carlosv14\\SocialNetwork\\SocialNetwork.Infrastructure\\SocialNetwork.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\ccgue\\Source\\Repos\\SocialNetwork\\SocialNetwork.Infrastructure\\SocialNetwork.Infrastructure.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jose\\.nuget\\packages\\mongodb.bson\\2.19.2\\mongodb.bson.2.19.2.nupkg.sha512",
-    "C:\\Users\\jose\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+    "C:\\Users\\ccgue\\.nuget\\packages\\mongodb.bson\\2.19.2\\mongodb.bson.2.19.2.nupkg.sha512",
+    "C:\\Users\\ccgue\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

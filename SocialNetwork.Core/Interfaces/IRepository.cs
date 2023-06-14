@@ -16,6 +16,7 @@ namespace SocialNetwork.Core.Interfaces
 		IReadOnlyList<TEntity> Get();
 
 		IReadOnlyList<TEntity> Filter(Func<TEntity, bool> predicate);
+        object GetCollection();
     }
 }
 

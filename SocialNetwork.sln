@@ -1,15 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1706.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialNetwork.Api", "SocialNetwork.Api\SocialNetwork.Api.csproj", "{E4E980CE-25D3-45EB-8EEC-CC14AAB44657}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocialNetwork.Api", "SocialNetwork.Api\SocialNetwork.Api.csproj", "{E4E980CE-25D3-45EB-8EEC-CC14AAB44657}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialNetwork.Core", "SocialNetwork.Core\SocialNetwork.Core.csproj", "{5AD59365-CC21-422F-AD52-9C6386DA66BC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialNetwork.Infrastructure.EntityFramework", "SocialNetwork.Infrastructure.EntityFramework\SocialNetwork.Infrastructure.EntityFramework.csproj", "{AE03B357-6B0F-40D8-BDAA-C28F0FB8D9CE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialNetwork.Infrastructure", "SocialNetwork.Infrastructure\SocialNetwork.Infrastructure.csproj", "{19A62530-D559-44B4-BB98-61F8E7053317}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocialNetwork.Core", "SocialNetwork.Core\SocialNetwork.Core.csproj", "{5AD59365-CC21-422F-AD52-9C6386DA66BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,14 +21,6 @@ Global
 		{5AD59365-CC21-422F-AD52-9C6386DA66BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AD59365-CC21-422F-AD52-9C6386DA66BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AD59365-CC21-422F-AD52-9C6386DA66BC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AE03B357-6B0F-40D8-BDAA-C28F0FB8D9CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AE03B357-6B0F-40D8-BDAA-C28F0FB8D9CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AE03B357-6B0F-40D8-BDAA-C28F0FB8D9CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AE03B357-6B0F-40D8-BDAA-C28F0FB8D9CE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{19A62530-D559-44B4-BB98-61F8E7053317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{19A62530-D559-44B4-BB98-61F8E7053317}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{19A62530-D559-44B4-BB98-61F8E7053317}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{19A62530-D559-44B4-BB98-61F8E7053317}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

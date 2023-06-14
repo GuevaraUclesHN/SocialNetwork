@@ -17,46 +17,18 @@ namespace SocialNetwork.Api.Controllers
             _userRepository = database.GetCollection<User>("Users");
         }
 
-        [HttpGet(Name = "GetUsers")]
-        public ActionResult<IEnumerable<UserListDto>> GetUsers([FromQuery] string? username)
+        [HttpGet]
+        public IActionResult Get()
         {
-            if (string.IsNullOrEmpty(username))
-            {
-                var users = _userRepository.Find(Builders<User>.Filter.Empty)
-                    .ToList();
-
-                var userList = users.Select(x => new UserListDto
-                {
-                    Id = x.Id,
-                    Name = x.Name,
-                    Username = x.Username
-                });
-
-                return Ok(userList);
-            }
-            else
-            {
-                var filter = Builders<User>.Filter.Regex("Username", new BsonRegularExpression($"^{username}"));
-                var users = _userRepository.Find(filter)
-                    .ToList();
-
-                var userList = users.Select(x => new UserListDto
-                {
-                    Id = x.Id,
-                    Name = x.Name,
-                    Username = x.Username
-                });
-
-                return Ok(userList);
-            }
+            var data = _userRepository.Find(FilterDefinition<User>.Empty).ToList();
+            return Ok(data);
         }
 
         [HttpGet("{id}")]
         public ActionResult<UserDetailDto> GetUserById(string id)
         {
             var filter = Builders<User>.Filter.Eq("_id", new ObjectId(id));
-            var user = _userRepository.Find(filter)
-                .FirstOrDefault();
+            var user = _userRepository.Find(filter).FirstOrDefault();
 
             if (user is null)
             {

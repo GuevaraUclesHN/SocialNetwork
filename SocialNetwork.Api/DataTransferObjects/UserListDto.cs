@@ -3,7 +3,7 @@ namespace SocialNetwork.Api.DataTransferObjects
 {
 	public class UserListDto
 	{
-		public int Id { get; set; }
+		public string Id { get; set; }
 
         public string Name { get; set; }
 

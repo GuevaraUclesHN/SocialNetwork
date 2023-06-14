@@ -9,14 +9,14 @@ namespace SocialNetwork.Core.Entities
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
-        public int Id { get; set; }
+        public string Id { get; set; }
 
         [BsonElement("Content")]
         public string Content { get; set; }
 
         [BsonElement("UserId")]
         [BsonRepresentation(BsonType.ObjectId)]
-        public int UserId { get; set; }
+        public string UserId { get; set; }
 
 	}
 }

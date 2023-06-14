@@ -92,19 +92,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jose\\.nuget\\packages\\": {}
+    "C:\\Users\\ccgue\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jose\\Source\\Repos\\carlosv14\\SocialNetwork\\SocialNetwork.Core\\SocialNetwork.Core.csproj",
+      "projectUniqueName": "C:\\Users\\ccgue\\Source\\Repos\\SocialNetwork\\SocialNetwork.Core\\SocialNetwork.Core.csproj",
       "projectName": "SocialNetwork.Core",
-      "projectPath": "C:\\Users\\jose\\Source\\Repos\\carlosv14\\SocialNetwork\\SocialNetwork.Core\\SocialNetwork.Core.csproj",
-      "packagesPath": "C:\\Users\\jose\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jose\\Source\\Repos\\carlosv14\\SocialNetwork\\SocialNetwork.Core\\obj\\",
+      "projectPath": "C:\\Users\\ccgue\\Source\\Repos\\SocialNetwork\\SocialNetwork.Core\\SocialNetwork.Core.csproj",
+      "packagesPath": "C:\\Users\\ccgue\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ccgue\\Source\\Repos\\SocialNetwork\\SocialNetwork.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jose\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ccgue\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -151,7 +151,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }
