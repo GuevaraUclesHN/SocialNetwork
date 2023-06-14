@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Driver;
 using SocialNetwork.Api.DataTransferObjects;
@@ -37,21 +37,16 @@ namespace SocialNetwork.Api.Controllers
 
 
 
-        [HttpGet("users/{userId}/posts/{postId}")]
+        [HttpGet("posts/{postId}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public ActionResult<PostDetailDto> GetPostById([FromRoute] string userId, [FromRoute] string postId)
+        public ActionResult<PostDetailDto> GetPostById([FromRoute] string postId)
         {
-            var user = _userCollection.Find(x => x.Id == userId).FirstOrDefault();
-            if (user is null)
-            {
-                return BadRequest($"No se encontró un usuario con id {userId}");
-            }
 
-            var post = _postCollection.Find(p => p.Id == postId && p.UserId == userId).FirstOrDefault();
+            var post = _postCollection.Find(p => p.Id == postId).FirstOrDefault();
             if (post is null)
             {
-                return BadRequest($"No se encontró una publicación con id {postId} para el usuario con id {userId}");
+                return BadRequest($"No se encontró una publicación con id {postId}");
             }
 
             var postDetailDto = new PostDetailDto
